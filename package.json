@@ -1,0 +1,74 @@
+{
+  "name": "@astermd-hq/vrio-client",
+  "version": "0.0.1",
+  "description": "Unofficial Node.js client for the VRIO commerce API: campaigns, customers, offers, carts, discounts, orders and routes, with opt-in redacted request logging.",
+  "license": "MIT",
+  "author": "AsterMD <admin@astermd.com>",
+  "homepage": "https://github.com/astermd/npm-vrio-client#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/astermd/npm-vrio-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/astermd/npm-vrio-client/issues",
+    "email": "admin@astermd.com"
+  },
+  "keywords": [
+    "vrio",
+    "vrio-api",
+    "api-client",
+    "rest-client",
+    "ecommerce",
+    "orders",
+    "payments",
+    "checkout"
+  ],
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build": "tsup",
+    "test:dist": "node scripts/check-dist-interop.mjs",
+    "gate": "npm run lint && npm run typecheck && npm run test && npm run build && npm run test:dist && npx --yes publint"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/node": "^22.18.0",
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.0",
+    "prettier": "^3.6.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.0",
+    "typescript-eslint": "^8.44.0",
+    "vitest": "^3.2.0"
+  }
+}
