@@ -4,7 +4,7 @@
 
 Please report security issues privately. **Do not open a public GitHub issue.**
 
-Email **info@astermd.com** with:
+Email **admin@astermd.com** with:
 
 - a description of the issue and the impact you believe it has,
 - the package version and Node.js version affected,
@@ -73,4 +73,4 @@ Using this package does not by itself make your application PCI DSS, HIPAA or
 GDPR compliant. It is one component in your system. Scoping, encryption at
 rest, access control, audit logging, breach procedures and your agreements
 with VRIO and your processors remain your responsibility. For licensing or BAA
-enquiries, email **info@astermd.com**.
+enquiries, email **admin@astermd.com**.

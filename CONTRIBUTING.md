@@ -4,7 +4,7 @@ Thanks for considering a contribution. This is a small, dependency-free client
 library with a narrow job, so most changes are small and most of the review is
 about invariants rather than style.
 
-Security issues do **not** belong here: email **info@astermd.com** and never
+Security issues do **not** belong here: email **admin@astermd.com** and never
 open a public issue for a vulnerability. See [SECURITY.md](SECURITY.md).
 
 ## Getting set up

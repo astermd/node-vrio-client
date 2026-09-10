@@ -460,7 +460,7 @@ this suite makes an external network call.
 
 ## Support
 
-Email **info@astermd.com**, or open an issue at
+Email **admin@astermd.com**, or open an issue at
 <https://github.com/astermd/vrio-client/issues>. The API reference for the
 endpoints themselves lives in your AsterMD dashboard and at
 <https://docs.vrio.com/reference/vrio-api-overview>.
@@ -474,7 +474,7 @@ Using this package does not by itself make your application PCI DSS, HIPAA or
 GDPR compliant. It is one component in your system. Scoping, encryption at
 rest, access control, audit logging, breach procedures and your agreements with
 VRIO and your payment processors remain your responsibility. For licensing or
-BAA enquiries, email **info@astermd.com**.
+BAA enquiries, email **admin@astermd.com**.
 
 ## License
 
