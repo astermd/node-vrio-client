@@ -1,17 +1,17 @@
 {
   "name": "@astermd-hq/vrio-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Unofficial Node.js client for the VRIO commerce API: campaigns, customers, offers, carts, discounts, orders and routes, with opt-in redacted request logging.",
   "license": "MIT",
-  "author": "AsterMD <admin@astermd.com>",
-  "homepage": "https://github.com/astermd/npm-vrio-client#readme",
+  "author": "AsterMD <hello@astermd.com>",
+  "homepage": "https://github.com/astermd/node-vrio-client#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/astermd/npm-vrio-client.git"
+    "url": "git+https://github.com/astermd/node-vrio-client.git"
   },
   "bugs": {
-    "url": "https://github.com/astermd/npm-vrio-client/issues",
-    "email": "admin@astermd.com"
+    "url": "https://github.com/astermd/node-vrio-client/issues",
+    "email": "hello@astermd.com"
   },
   "keywords": [
     "vrio",
@@ -42,7 +42,8 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "NOTICE.md"
   ],
   "sideEffects": false,
   "engines": {
