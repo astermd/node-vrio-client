@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2026-11-13
+
+### Changed
+
+- Documentation and package metadata only.
+
 ## [0.0.1] - 2026-09-08
 
 First public release. A port of the `astermd/vrio-client` Composer package,
@@ -71,5 +77,6 @@ with the same public surface wherever TypeScript allows it.
   every public method and asserting URL, HTTP method, headers and request body,
   running on Node 22 and 24 in CI.
 
-[Unreleased]: https://github.com/astermd/vrio-client/compare/v0.0.1...HEAD
-[0.0.1]: https://github.com/astermd/vrio-client/releases/tag/v0.0.1
+[Unreleased]: https://github.com/astermd/node-vrio-client/compare/v0.0.2...HEAD
+[0.0.2]: https://github.com/astermd/node-vrio-client/compare/v0.0.1...v0.0.2
+[0.0.1]: https://github.com/astermd/node-vrio-client/releases/tag/v0.0.1
